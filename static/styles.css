@@ -1,0 +1,166 @@
+@font-face {
+	  font-family: SpaceMonoRegular;
+	  src: url('../font/SpaceMono-Regular.ttf');
+}
+
+@font-face {
+	  font-family: SpaceMonoBold;
+	  src: url('../font/SpaceMono-Bold.ttf');
+}
+
+@font-face {
+	  font-family: SpaceMonoItalic;
+	  src: url('../font/SpaceMono-Italic.ttf');
+}
+
+@font-face {
+	  font-family: SpaceMonoBoldItalic;
+	  src: url('../font/SpaceMono-BoldItalic.ttf');
+}
+  
+body{
+
+	font-family: SpaceMonoRegular;
+	background-color: hsl(185, 41%, 84%);
+}
+
+#title{
+	font-family: SpaceMonoBold;
+	color: hsl(183, 100%, 15%);
+	letter-spacing: 4px;
+}
+
+#mainPanel{
+	border-radius:10px;
+}
+
+#rightCard{
+	border-radius:10px;
+	background-color: hsl(183, 100%, 15%);
+	
+}
+
+.form-control{
+	height: 35px;
+	background-color: hsl(189, 41%, 97%) !important;
+	border-color: hsl(189, 41%, 97%) !important;
+	text-align: right;
+	font-size: 16px;
+}
+
+.form-control:focus::placeholder {
+  color: transparent;
+}
+
+.input-group:focus-within .input-group-prepend .input-group-text,
+.form-control:focus ~ .input-group-append .input-group-text {
+  border-color: #06f;
+}
+
+#usernameForm:hover{
+	cursor:pointer;
+	border-top-color: hsl(172, 67%, 45%) !important;
+	border-bottom-color: hsl(172, 67%, 45%) !important;
+	border-right-color: hsl(172, 67%, 45%) !important;
+}
+
+.input-group{
+  display: table;
+  border-collapse: collapse;
+  width:100%;
+}
+.input-group > div{
+  display: table-cell;
+  border: 1px solid #ddd;
+  vertical-align: middle;  /* needed for Safari */
+}
+.input-group-icon{
+  background:#eee;
+  color: #777;
+  padding: 0 12px
+}
+.input-group-area{
+  width:100%;
+}
+.input-group input{
+  border: 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
+}
+
+
+.tip:hover{
+	background-color:hsl(185, 41%, 84%) !important;
+	border-color:hsl(185, 41%, 84%) !important;
+}
+
+.tip{
+	font-family: SpaceMonoBold;
+	border-color: hsl(183, 100%, 15%) !important;
+	background-color: hsl(183, 100%, 15%) !important;
+	width:90px;
+}
+
+.custom{
+	font-family: SpaceMonoBold;
+	border-color: hsl(189, 41%, 97%) !important;
+	background-color: hsl(189, 41%, 97%) !important;
+	width:90px;
+	color:hsl(183, 100%, 15%);
+}
+
+#basic-addon2,#basic-addon1{
+	background-color: hsl(189, 41%, 97%) !important;
+	border-color: hsl(189, 41%, 97%) !important;
+}
+
+.large{
+	font-family: SpaceMonoBold;
+	color:hsl(172, 67%, 45%);
+	font-size:32px;
+}
+
+#reset{
+	font-family: SpaceMonoBold;
+	color: hsl(183, 100%, 15%);
+	border-color:hsl(172, 67%, 45%);
+	background-color:hsl(172, 67%, 45%);
+	
+	
+}
+
+#reset:hover{
+	background-color:hsl(185, 41%, 84%) !important;
+	border-color:hsl(185, 41%, 84%) !important;
+	
+	
+}
+
+.center{
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+
+}
+
+.form-title{
+	font-family: SpaceMonoBold;
+	color:hsl(183, 100%, 15%);
+}
+
+#numberPeople{
+	text-align: right;
+	outline: none;
+}
+#billForm{
+	text-align: right;
+	outline: none;
+} 
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
